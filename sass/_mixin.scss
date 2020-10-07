@@ -1,0 +1,12 @@
+@mixin colbox{
+      width:auto ;
+      height: auto;
+      background-color: $bgcolor;
+      margin: 15px 10px;
+      flex-grow: 1;
+      padding: 10px;
+}
+@mixin icons{
+     font-size: 2rem;
+     color: $hovercolor;
+}

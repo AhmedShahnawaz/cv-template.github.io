@@ -1,0 +1,14 @@
+{
+  "name": "sassfirst",
+  "version": "1.0.0",
+  "description": "i am starting sass and make resume",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass" : "node-sass sass/main.scss css/style.css -w" 
+  },
+  "author": "shahnawaz ahmed",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.14.1"
+  }
+}
