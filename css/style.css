@@ -5,7 +5,7 @@
   font-family: 'Piazzolla', serif; }
 
 html {
-  font-size: 13px;
+  font-size: 1rem;
   font-family: 'Piazzolla', serif; }
 
 .grid-cont {
@@ -14,6 +14,21 @@ html {
   transition: all 0.8s;
   flex-wrap: wrap;
   transition-timing-function: ease; }
+
+#a {
+  color: #f4d89d; }
+
+#b {
+  color: #D5F8C4; }
+
+#c {
+  color: #C4F2F8; }
+
+#d {
+  color: #C4F8DC; }
+
+#e {
+  color: #DBC4F8; }
 
 .item1 {
   width: auto;
@@ -80,8 +95,8 @@ i {
 .fotter {
   width: auto;
   flex-grow: 1;
-  background-color: #8a9999;
-  color: #fcffff;
+  background-color: #E3E3E3;
+  color: #000;
   justify-content: center;
   align-content: center; }
 
@@ -92,8 +107,7 @@ i {
   .fotter .fab {
     cursor: pointer;
     font-size: 2rem;
-    margin: 15px 12px;
-    color: #fcffff; }
+    margin: 15px 12px; }
     .fotter .fab:hover {
       opacity: 0.8; }
 

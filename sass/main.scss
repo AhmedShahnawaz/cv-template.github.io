@@ -5,7 +5,7 @@
     margin: 0; padding: 0; box-sizing: border-box;font-family: 'Piazzolla', serif;
 }
 // globel font size
-html{font-size:13px;
+html{font-size:1rem;
    font-family: 'Piazzolla', serif;
    }
 // grid main container 
@@ -16,6 +16,12 @@ html{font-size:13px;
         flex-wrap: wrap;
         transition-timing-function: ease;
       } 
+//nav bar bg color set
+  #a{color: $a;}
+  #b{color: $b;}
+  #c{color: $c;}
+  #d{color: $d;}
+  #e{color: $e;}
 // grid items in column 
     .item1{
          @include colbox;
@@ -67,8 +73,8 @@ html{font-size:13px;
      .fotter{
           width: auto;
           flex-grow: 1;
-          background-color: #8a9999;
-          color: $bgcolor;
+          background-color: #E3E3E3;
+          color: $textcolor;
           justify-content: center;
           align-content: center;
            }
@@ -81,7 +87,6 @@ html{font-size:13px;
             cursor: pointer;
             font-size: 2rem;
             margin:15px 12px;
-            color: $bgcolor; 
             &:hover{
               opacity: 0.8;
                    }
