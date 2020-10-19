@@ -12,7 +12,7 @@
      <!--add link csss style sheet-->
     <link rel="stylesheet" type="text/css" href="css/style.css">
    <!--add link google font roboto font-->
-   <link href="https://fonts.googleapis.com/css2?family=Piazzolla:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Piazzolla:wght@500&display=swap" rel="stylesheet">
     <title>Hello, world!</title>
   </head>
   <script type="text/javascript">
@@ -21,85 +21,104 @@
       }
   </script>
   <body>
-        <!--  nav bar  --> 
-    <nav class="navbar navbar-expand-lg navbar-light text-light bg-light fixed-top shadow">
+        <!-- ################## start navbar area  ####################### --> 
+  <nav class="navbar navbar-expand-lg navbar-light text-light bg-light fixed-top shadow">
          <a class="navbar-brand" href="#">Resume / CV</a>
            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
            <span class="navbar-toggler-icon"></span>
            </button>
-   <div class="collapse navbar-collapse" id="navbarNavDropdown">
-     <ul class="navbar-nav">
-      <li class="nav-item">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#" id="#1">footer</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Social links</a>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          select color
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a onclick="bgcolor(id)" class="dropdown-item" id="a">#f4d89d</a>
-          <a onclick="bgcolor(id)" class="dropdown-item" id="b">#D5F8C4</a>
-          <a onclick="bgcolor(id)" class="dropdown-item" id="c">#C4F2F8</a>
-          <a onclick="bgcolor(id)" class="dropdown-item" id="d">#C4F8DC</a>
-          <a onclick="bgcolor(id)" class="dropdown-item" id="e">#DBC4F8</a>
-        </div>
-      </li>
-    </ul>
-  </div>
-</nav>
+         <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+               <li class="nav-item">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+               </li>
+               <li class="nav-item">
+                 <a class="nav-link" href="#" id="#1">footer</a>
+              </li>
+              <li class="nav-item">
+                 <a class="nav-link" href="#">Social links</a>
+              </li>
+              <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                   select color
+                 </a>
+                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <a onclick="bgcolor(id)" class="dropdown-item" id="a">#f4d89d</a>
+                  <a onclick="bgcolor(id)" class="dropdown-item" id="b">#D5F8C4</a>
+                  <a onclick="bgcolor(id)" class="dropdown-item" id="c">#C4F2F8</a>
+                  <a onclick="bgcolor(id)" class="dropdown-item" id="d">#C4F8DC</a>
+                  <a onclick="bgcolor(id)" class="dropdown-item" id="e">#DBC4F8</a>
+                </div>
+              </li>
+            </ul>
+         </div>
+  </nav>
 
-   <div class="grid-cont container mt-5">
-    <div class="row">
-     <!--  start column left
- -->   <div class="col-12 col-md-4 col-lg-4">
-                  <!--  column first -->
-          <div class="item1 shadow-lg rounded">
+<div class="grid-cont container mt-5">
+     <div class="row">
+                <!-- ##################### start column left #################-->   
+        <div class="col-12 col-md-4 col-lg-4">
+                  <!-- ################ start about area col 1 row 1  ################## -->
+            <div class="item1 shadow-lg rounded">
                 <div class="img1">
                    <img src="img/testimonials/t1.jpg" alt="banner-image" class="img-fluid img">
                 </div>
                 <div class="about-area container mt-4">
                    <p><i class="fas fa-graduation-cap mr-2"></i>B-TECH - (ECE)</p>
-                   <p><i class="fas fa-envelope mr-2"></i>shahnawazahmed8290@gmail.com</p>
-                   <p><i class="fas fa-phone-alt mr-2"></i>+91 8290044622</p>
-                   <p><i class="fas fa-map-marked-alt mr-2"></i>Pink City Jaipur</p>
+                   <p><i class="fas fa-envelope mr-2"></i>shahnawazahmed@gmail.com</p>
+                   <p><i class="fas fa-phone-alt mr-2"></i>+91-7732960120</p>
+                   <p><i class="fas fa-map-marked-alt mr-2"></i>Pink City Jaipur Rajasthan</p>
                </div>
-          </div>
-          <!-- start column 2 -->
-          <div class="item2 shadow-lg rounded">
-              <div class="skills container">
-                  <h3><i class="fas fa-asterisk mr-2"></i>Skills</h3>
+            </div>
+          <!-- ################# start it skill area col 1 row 2 ################ -->
+            <div class="item2 shadow-lg rounded">
+              <div class="skills container mb-4">
+                  <h3><i class="fas fa-asterisk mr-2"></i>IT Skills</h3>
                    <hr>
                 <p>HTML</p>
                    <div class="progress shadow-sm">
-                     <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 70%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">70%</div>
+                     <div class="progress-bar bg-success" role="progressbar" style="width: 70%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">70%</div>
                    </div>
-                <p>CSS</p>
+                <p>CSS</p>   
                   <div class="progress shadow-sm">
-                    <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 65%" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100">65%</div>
+                    <div class="progress-bar bg-primary" role="progressbar" style="width: 60%" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100">60%</div>
                   </div>
                 <p>SASS</p>
                    <div class="progress shadow-sm">
-                     <div class="progress-bar progress-bar-striped bg-info" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
+                     <div class="progress-bar bg-secondary" role="progressbar" style="width: 75%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">75%</div>
                    </div>
                <p>BOOTSTRAP</p>
                   <div class="progress shadow-sm">
-                    <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 60%" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">60%</div>
+                    <div class="progress-bar bg-info" role="progressbar" style="width: 65%" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">65%</div>
                   </div>
-               <p>JAVA SCRIPT</p>
+               <p>JAVA-SCRIPT</p>
                   <div class="progress shadow-sm">
-                    <div class="progress-bar progress-bar-striped bg-danger" role="progressbar" style="width: 35%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">35%</div>
+                    <div class="progress-bar bg-danger" role="progressbar" style="width: 30%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">30%</div>
                   </div>
+             </div>
             </div>
-        </div>
-      <!--   start column 3 -->
-       <div class="item3 shadow-lg rounded">
-           <div class="skills1 container">
+          <!--  ################## start skills area col 1 row 4  ################### -->
+            <div class="item3 shadow-lg rounded">
+             <div class="skills1 container mb-4">
+                 <h3 class="mt-2"><i class="fas fa-asterisk mr-2"></i>Skills</h3>
+                  <hr>
+                  <div class="skill">
+                    <p>Microsoft-Office</p>
+                  </div>
+                    <div class="skill">
+                    <p>Leadership</p>
+                  </div>
+                    <div class="skill">
+                    <p>Testing/Debugging</p>
+                  </div>
+                    <div class="skill">
+                    <p>Problem-Solving</p>
+                  </div>
+              </div>
+            </div>
+            <!--   ################ start lenguage area col 1 row 3  ################## -->
+            <div class="item4 shadow-lg rounded">
+             <div class="skills1 container mb-4">
                  <h3 class="mt-2"><i class="fas fa-globe-americas mr-2"></i>Languages</h3>
                   <hr>
               <p>HINDI</p>
@@ -114,16 +133,16 @@
                   <div class="progress shadow-sm">
                      <div class="progress-bar progress-bar-striped bg-primary" role="progressbar" style="width: 60%" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100">60%</div>
                   </div>
+              </div>
             </div>
-        </div>
-    </div>    
-    <!-- end left column area -->
-   <!-- right column area start-->  
-      <div class="col-12 col-md-8 col-lg-8">
-         <!-- right column area start col 1--> 
-           <div class="item3 shadow-lg rounded">
-              <div class="education-all container">  <!-- all about fill in the about education  -->
-                 <h3><i class="fas fa-graduation-cap mr-4"></i>EDUCATION</h3>
+        </div>    
+           <!-- end left column area -->
+           <!-- right column area start-->  
+        <div class="col-12 col-md-8 col-lg-8">
+           <!-- ###############  start education area col 2 row 1  ##############--> 
+           <div class="item5 shadow-lg rounded">
+              <div class="education-all container mb-4"> 
+                 <h3><i class="fas fa-graduation-cap mr-2"></i>Education</h3>
                  <br>
                  <div class="class1">
                    <h5>Arya College Of Engineering & I.T</h5>
@@ -146,32 +165,25 @@
                      <h5>percentage <span class="badge badge-secondary">65.33%</span></h5>      
                  </div>
               </div>
-           </div>
-            <!-- right column area start col 2--> 
-           <div class="item4 shadow-lg rounded">
-               <div class="container work-exp mb-4">  <!-- all about fill in the about project  -->
-                  <h3><i class="fas fa-tasks mr-4"></i>WORK EXPIRIENCE</h3>
+           </div> 
+           <!--############ start certification area col 2 row 2 ########### -->
+           <div class="item6 shadow-lg rounded">
+               <div class="container work-exp mb-4"> 
+                  <h3><i class="fas fa-tasks mr-2"></i>Certifications,</h3>
                   <br>
                   <div class="work1">
-                    <h5>ALCOHOL BREATHALYZER TESTER</h5>
-                    <p>The most famous portable device to test breath alcoholcontent, Alcoholbreath-testing devices use the amount of alcohol in exhaled breath to calculate the amount of alcohol in a person's blood, also known as bloodalcohol concentration (BAC</p>
+                    <h5>IoT (Internet of Things)</h5>
+                    <p>IOT is the inter-networking of physical devices (embeded) with electronics  software, sensors etc. and network connectivity that enable these objects to collect and exchange data.</p>
                     <p class="date"><i class="far fa-calendar-alt mr-2"></i>10/Sep/2018 - 15/Sep/2018</p>
                     <hr>
                   </div>
                    <div class="work2">
-                    <h5>WIRELESS ROBO CAR</h5>
-                    <p>It is a high speed wireless robot car having 4 (500rpm) motors and control long distance</p>
+                    <h5>OFC (Optical Fibre Communication)</h5>
+                    <p>Fiber-optic communication is a method of transmitting information from one place to another by sending pulses of infrared light through an optical fiber</p>
                     <p class="date"><i class="far fa-calendar-alt mr-2"></i>14/Feb/2017 - 18/Feb/2017</p> 
                     <hr>
                    </div>
                   <div class="work3">
-                    <h5>Internet of things (IOT)</h5>
-                    <p><b>Institute Name:</b>Rajasthan Technical University</p>
-                    <p>The Internet of Things (IoT) is a system of interrelated computing devices, and the ability to transfer data over a network without requiring human-to-human or human-to-computer interaction.</p>
-                    <p class="date"><i class="far fa-calendar-alt mr-2"></i>March 8, 2018 - March 10, 2018</p>
-                    <hr>
-                  </div>
-                  <div class="work4">
                     <h5>AUTOCAD</h5>
                     <p><b>Institute Name:</b>Central Institute of Plastic Engineering And Technology</p>
                     <p>AutoCAD is a commercial computer-aided design (CAD) and drafting software application. Developed and marketed by Autodesk and AutoCAD is used</p>
@@ -179,20 +191,48 @@
                   </div>
                </div>
            </div>
-     </div>  
-  <!--    footer area start -->
-    </div href="#1">
-      <footer class="fotter text-center container-fluid">
+           <!-- ############## start project area col 2 row 3 ####################### --> 
+           <div class="item7 shadow-lg rounded">
+               <div class="container work-exp mb-4"> 
+                  <h3><i class="fa fa-quote-right mr-2" aria-hidden="true"></i>Project</h3>
+                  <br>
+                  <div class="work2">
+                    <h5>Wireless Robot CAR using Arduino</h5>
+                    <p>Wireless Bluetooth Controlled Robot Car Using Arduino The robotic car can be
+                    controlled wirelessly via a Smartphone</p>
+                    <p class="date"><i class="far fa-calendar-alt mr-2"></i>14/Feb/2017 - 18/Feb/2017</p> 
+                    <hr>
+                   </div>
+                  <div class="work1">
+                    <h5>Alcohol Breathalyzer Tester</h5>
+                    <p>Alcoholbreath-testing devices use the amount of alcohol in exhaled breath to calculate the amount of alcohol in a person's blood,</p>
+                    <p class="date"><i class="far fa-calendar-alt mr-2"></i>10/Sep/2018 - 15/Sep/2018</p>
+                    <hr>
+                  </div>
+                    <div class="work2">
+                    <h5>Human Following Robot,</h5>
+                    <p>A human-following robot target and detection of human motions, robot control
+                    algorithm and obstacles avoidance.</p>
+                    <p class="date"><i class="far fa-calendar-alt mr-2"></i>24/sep/2020 - 27/sep/2020</p> 
+                   </div>
+               </div>
+           </div>
+        </div> 
+      </div> 
+</div>
+  <!--  ##################  start footer area #######################-->
+<section class="container-fluid">
+  <footer class="fotter text-center">
          <h3>shahnawaz ahmed</h3>
-         <hr class="w-25 bg-success m-auto">
+         <hr class="w-25 bg-success m-auto hr1">
          <a href="" title="" class="icc"><i class="fab fa-google ic"></i></a>
          <a href="https://www.facebook.com/AhmedTechPro" title="facebook"><i class="fab fa-facebook"></i></a>
          <a href="https://github.com/AhmedShahnawaz" title="github"><i class="fab fa-github"></i></a>
          <a href="https://www.instagram.com/?hl=en" title="instagram"><i class="fab fa-instagram"></i></a>
          <a href="https://www.youtube.com/channel/UCzGA30EZAnqAirGb2C84ZtA?view_as=subscriber" title="youtub"><i class="fab fa-youtube"></i></a>
          <p class="mb-1">Copyright by © All Rights Reserved - SHAHNAWAZ AHMED 2020.</p>
-      </footer>
-   </div>
+  </footer>
+</section>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

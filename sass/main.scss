@@ -23,7 +23,7 @@ html{font-size:1rem;
   #d{color: $d;}
   #e{color: $e;}
 // grid items in column 
-    .item1{
+      .item1{
          @include colbox;
         }
       .item2{
@@ -32,12 +32,18 @@ html{font-size:1rem;
      .item3{
          @include colbox;
           } 
-      .item3{
+      .item4{
           @include colbox;
         } 
-     .item4{
+     .item5{
            @include colbox;
         } 
+     .item6{
+           @include colbox;
+        } 
+     .item7{
+           @include colbox;
+        }       
          // date and calender color
       .date{
          color: $hovercolor;
@@ -99,3 +105,10 @@ html{font-size:1rem;
          font-size: 1.3rem;
       }
 
+.hr1{
+   &:hover{
+      color: red;
+      width: 25px;
+      transition-duration: 2s;
+   }
+}

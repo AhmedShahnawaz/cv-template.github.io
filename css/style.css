@@ -54,7 +54,7 @@ html {
   flex-grow: 1;
   padding: 10px; }
 
-.item3 {
+.item4 {
   width: auto;
   height: auto;
   background-color: #fcffff;
@@ -62,7 +62,23 @@ html {
   flex-grow: 1;
   padding: 10px; }
 
-.item4 {
+.item5 {
+  width: auto;
+  height: auto;
+  background-color: #fcffff;
+  margin: 15px 10px;
+  flex-grow: 1;
+  padding: 10px; }
+
+.item6 {
+  width: auto;
+  height: auto;
+  background-color: #fcffff;
+  margin: 15px 10px;
+  flex-grow: 1;
+  padding: 10px; }
+
+.item7 {
   width: auto;
   height: auto;
   background-color: #fcffff;
@@ -116,3 +132,8 @@ i {
 
 h5 {
   font-size: 1.3rem; }
+
+.hr1:hover {
+  color: red;
+  width: 25px;
+  transition-duration: 2s; }
